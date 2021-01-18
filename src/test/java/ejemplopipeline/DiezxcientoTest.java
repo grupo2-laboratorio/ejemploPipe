@@ -28,6 +28,11 @@ public class DiezxcientoTest {
 
 	@Test
 	public void testSaldoAhorro() throws Exception {
+		Diezxciento diezxciento = new Diezxciento();
+
+		assertEquals(17100000, diezxciento.saldoAhorro(19000000));
+		assertEquals(22500000, diezxciento.saldoAhorro(25000000));
+		assertEquals(40500000, diezxciento.saldoAhorro(45000000));
 
 	}
 

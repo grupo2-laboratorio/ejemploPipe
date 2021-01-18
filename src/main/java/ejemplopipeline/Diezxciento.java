@@ -44,7 +44,7 @@ public class Diezxciento {
 		}
 	}
 	
-	public int saldoAhorro() {
+	public int saldoAhorro(int ahorro) {
 		double noventaxciento = ahorro * 0.9;
 		return (int) noventaxciento;
 	}
